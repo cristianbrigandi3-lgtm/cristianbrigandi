@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Work — Cristian Brigandi</title>
+<meta name="description" content="Selected work: passive audit tool, ethical CTF fork, demo business sites.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top"><div class="top-in">
+  <div class="brand">Cristian Brigandi <small>· Sicily</small></div>
+  <nav class="nav"><a href="index.html">Home</a><a class="active" href="work.html">Work</a><a href="services.html">Services</a><a href="contact.html">Contact</a></nav>
+</div></header>
+<main class="wrap">
+  <h1>Work</h1>
+  <p class="lede">Three things that show how I work: small scope, readable code, written output. Full code and sample reports on request.</p>
+
+  <h2 id="audit">Exposure Audit Kit — 2026</h2>
+  <div class="card">
+    <h3>Passive site check, one Python file</h3>
+    <p>Subdomain discovery via crt.sh, missing-header check, and 20 common exposed paths over GET only
+    (<code>/.git/HEAD</code>, <code>/.env</code>, <code>/backup.zip</code>). Writes
+    <code>report.md</code> / <code>report.html</code> / <code>report.json</code>.</p>
+    <p class="tech">Python stdlib · no dependencies · custom-404 heuristic · blocked: localhost/private ranges</p>
+    <p class="tech">Result on <code>example.com</code>: 6 subdomains via CT logs, 0 flagged on main host.</p>
+  </div>
+
+  <h2 id="ctf">Audit CTF, OliCyber edition — 2026</h2>
+  <div class="card">
+    <h3>Ethical training fork</h3>
+    <p>Same base plus: mandatory <code>--i-have-permission</code>, <code>--scope-file</code>,
+    <code>--delay 0.5</code> with max 5 workers, robots.txt respect, and passive JS/comment crawl
+    for <code>flag{…}</code> patterns. Every request logged to <code>requests.log</code>.</p>
+    <p class="tech">Used on: my own labs and CTF instances only · GET-only, no exploits</p>
+  </div>
+
+  <h2 id="sites">Demo business sites</h2>
+  <div class="card">
+    <h3>Before / after cleanup</h3>
+    <p>Two template sites cleaned up: image sizes, headings, meta descriptions, contact section.
+    Before/after screenshots and a 1-page checklist available on request.</p>
+  </div>
+
+  <div class="notice" style="margin-top:22px"><strong>How I document:</strong> <span class="mut">each project ships a README with run commands, expected output, and limits. No live targets, no secrets in repos.</span></div>
+  <p style="margin-top:18px"><a class="btn" href="contact.html">Ask for samples</a></p>
+</main>
+<footer>© 2026 Cristian Brigandi · <a href="index.html">Home</a></footer>
+</body>
+</html>

@@ -3,65 +3,60 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Cristian Brigandi — Websites, Automations, Cybersecurity</title>
-<meta name="description" content="Cristian Brigandi: websites, automation scripts, bots, social media support. IT student, Sicily. Authorized projects only.">
-<style>
-:root{--bg:#0f172a;--card:#1e293b;--txt:#e2e8f0;--mut:#94a3b8;--acc:#38bdf8}
-*{box-sizing:border-box}body{margin:0;font-family:-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:var(--bg);color:var(--txt)}
-.wrap{max-width:880px;margin:0 auto;padding:32px 20px}
-.hero{padding:40px 0 16px}.hero h1{margin:0;font-size:34px}.hero p{color:var(--mut);font-size:17px;max-width:640px}
-.badges{margin:16px 0}.badges span{display:inline-block;background:var(--card);border:1px solid #334155;border-radius:20px;padding:5px 12px;margin:4px;font-size:13px}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:14px;margin:20px 0}
-.card{background:var(--card);border:1px solid #334155;border-radius:14px;padding:18px}
-.card h3{margin:0 0 8px;font-size:17px}.card p{color:var(--mut);font-size:14px;margin:0}
-.card a{color:var(--acc);font-size:14px}
-h2{margin-top:36px;font-size:22px}
-ul{color:var(--mut);line-height:1.7}
-.cta{margin-top:28px;background:var(--card);border:1px solid #334155;border-radius:14px;padding:20px}
-.cta a.btn{display:inline-block;background:var(--acc);color:#06283a;font-weight:700;padding:10px 18px;border-radius:10px;text-decoration:none;margin-top:10px}
-.small{font-size:13px;color:var(--mut)}
-footer{margin:36px 0 10px;font-size:12px;color:var(--mut)}
-</style>
+<title>Cristian Brigandi — Web developer</title>
+<meta name="description" content="Cristian Brigandi, 17, Sicily. Showcase websites, Python automations, Telegram bots. Authorized work only.">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-<div class="wrap">
+<header class="top"><div class="top-in">
+  <div class="brand">Cristian Brigandi <small>· Sicily</small></div>
+  <nav class="nav"><a class="active" href="index.html">Home</a><a href="work.html">Work</a><a href="services.html">Services</a><a href="contact.html">Contact</a></nav>
+</div></header>
+
+<main class="wrap">
   <div class="hero">
-    <h1>Cristian Brigandi</h1>
-    <p>IT student, 17 — Sicily, Italy. I build <b>websites</b>, <b>automation scripts</b>, <b>bots</b> and help with <b>social media</b>. Studying cybersecurity (OliCyber) with authorized testing only.</p>
-    <div class="badges">
-      <span>Showcase sites</span><span>Python</span><span>Automations</span><span>Telegram bots</span><span>Socials</span><span>Passive security checks</span>
+    <div>
+      <span class="pill">Available for small projects</span>
+      <h1>Websites and small Python tools, done plainly.</h1>
+      <p class="lede">I’m 17, based in Sicily. I build fast showcase sites for local shops,
+      plus scripts and Telegram bots that remove repetitive work. I also train in
+      cybersecurity (OliCyber) — authorized labs only.</p>
+      <p style="margin-top:18px">
+        <a class="btn" href="contact.html">Get in touch</a>
+        <a class="btn ghost" href="work.html" style="margin-left:8px">See work</a>
+      </p>
+      <p class="small mut">Reply within 48h · Italian / basic English · UTC+1</p>
     </div>
+    <aside class="hero-photo">
+      <div class="avatar">CB</div>
+      <dl>
+        <dt>Base</dt><dd>Sicily, Italy</dd>
+        <dt>Stack</dt><dd>HTML/CSS, basic JS, Python, WordPress</dd>
+        <dt>Now</dt><dd>Studying IT · OliCyber training</dd>
+        <dt>Work rule</dt><dd>Authorized projects only; under 18 via parent/guardian</dd>
+      </dl>
+    </aside>
   </div>
 
   <h2>What I do</h2>
-  <div class="grid">
-    <div class="card"><h3>Websites</h3><p>Fast mobile-first showcase sites with basic SEO. Delivered with instructions.</p></div>
-    <div class="card"><h3>Automations</h3><p>Python scripts: reports, file cleanup, exposure checks, small integrations.</p></div>
-    <div class="card"><h3>Bots</h3><p>Basic Telegram/Discord bots: replies, reminders, simple commands.</p></div>
-    <div class="card"><h3>Socials</h3><p>Post calendar, bio, basic template graphics.</p></div>
+  <div class="grid3">
+    <div class="card"><h3>Showcase sites</h3><p>Up to 5 pages, mobile-first, basic SEO. You provide text + photos.</p><p class="tech">from €250 · 1–2 weeks</p></div>
+    <div class="card"><h3>Automations</h3><p>Python scripts: cleanup, simple reports, checks, small integrations.</p><p class="tech">from €80</p></div>
+    <div class="card"><h3>Bots &amp; socials</h3><p>Basic Telegram bots and a 2-week social starter pack.</p><p class="tech">from €60–120</p></div>
   </div>
 
-  <h2>Projects</h2>
-  <div class="grid">
-    <div class="card"><h3>Exposure Audit Kit</h3><p>Passive check: subdomains, headers, exposed files + client report. Authorized domains only.</p></div>
-    <div class="card"><h3>Audit CTF — OliCyber ed.</h3><p>Ethical training copy: mandatory consent, rate-limit, JS/comment crawl. Labs/CTFs only.</p></div>
-    <div class="card"><h3>Demo sites</h3><p>2 demos on request + before/after fix writeups.</p></div>
+  <h2>Selected work</h2>
+  <div class="grid2">
+    <div class="card"><h3>Exposure Audit Kit</h3><p>Passive site check in one Python file: subdomains, headers, 20 exposed paths, client report.</p><p class="tech"><a href="work.html#audit">Details →</a></p></div>
+    <div class="card"><h3>Audit CTF, OliCyber ed.</h3><p>Ethical fork: consent flag, scope file, delay, robots.txt respect, JS crawl.</p><p class="tech"><a href="work.html#ctf">Details →</a></p></div>
   </div>
 
-  <h2>How I work (minor)</h2>
-  <ul>
-    <li>Authorized projects only, simple contract + written brief.</li>
-    <li>Until 18: contracts and payments via parent/guardian.</li>
-    <li>No testing on other people's sites without written permission.</li>
-  </ul>
-
-  <div class="cta">
-    <b>Looking for: small sites, automations, intern/junior roles.</b><br>
-    <span class="small">Write with: what you need, budget, deadline. Reply within 48h.</span><br>
-    <a class="btn" href="mailto:cristianbrigandi3@gmail.com">cristianbrigandi3@gmail.com</a>
+  <div class="banner">
+    <strong>Have a shop that needs a simple site?</strong>
+    <p>Send what you do, 3 competitors you like, and a deadline. I’ll reply with a fixed price.</p>
+    <p style="margin-top:14px"><a class="btn" href="contact.html">Start →</a></p>
   </div>
-
-  <footer>© 2026 Cristian Brigandi · Authorized projects only · Ethical OliCyber training</footer>
-</div>
+</main>
+<footer>© 2026 Cristian Brigandi · Hand-built, no template · <a href="contact.html">Contact</a></footer>
 </body>
 </html>
